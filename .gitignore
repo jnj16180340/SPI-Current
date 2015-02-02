@@ -4,6 +4,7 @@
 *.s#?
 *.b#?
 *.l#?
+.directory
 
 # Eagle project file
 # It contains a serial number and references to the file structure
