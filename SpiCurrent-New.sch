@@ -15651,6 +15651,7 @@ grid 2.54 mm</description>
 <part name="H6" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="H7" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="H8" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="050-055X075" value="0.1uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -15751,6 +15752,7 @@ grid 2.54 mm</description>
 <instance part="H6" gate="G$1" x="-45.72" y="137.16"/>
 <instance part="H7" gate="G$1" x="-45.72" y="129.54"/>
 <instance part="H8" gate="G$1" x="-45.72" y="121.92"/>
+<instance part="C9" gate="G$1" x="-88.9" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -15987,6 +15989,9 @@ grid 2.54 mm</description>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <wire x1="-88.9" y1="48.26" x2="-93.98" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="-88.9" y1="58.42" x2="-88.9" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-88.9" y="48.26"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
@@ -16170,6 +16175,9 @@ grid 2.54 mm</description>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="-93.98" y1="78.74" x2="-88.9" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="-88.9" y1="66.04" x2="-88.9" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-88.9" y="78.74"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>

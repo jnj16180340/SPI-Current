@@ -11,6 +11,7 @@ Schematic and boards for power supply
 
 
 **NOTES:** 
+* Traces won't take much current-- Only about 5 amps or so. Ideally we can OMIT the traces entirely and wire up with wire. Or, beel up the traces with solder by OMITTING the mask
 * Use 10 gauge wire
 * Replace shunt resistors x2 with thick wire jumper, unless you omit the hall sensors
 * Replace a hall sensor with wire jumper unless you want two redundant ones
