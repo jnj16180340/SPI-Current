@@ -1,10 +1,15 @@
 # SPI-Current
 Schematic and boards for power supply  
 
+**Versions: **
+* This one
+* No copper for high current traces, but yes silkscreen (so we can wire it)
+* Smaller/no heatsink + no coils
+
 **TODO:**  
 * Wall voltage fuse, stepdown, rectify, filter
 * Make a branch with 2 independent half bridges in it
-* Isolate the 12V stuff from the 5v stuff (add optoisolators)
+* Isolate the 12V stuff from the 5v stuff
 * Figure out filtering caps for hall sensors
 * Add fuse to output
 * Lay out boards  
