@@ -2,9 +2,7 @@
 Schematic and boards for power supply  
 
 **Versions: **
-* This one
-* No copper for high current traces, but yes silkscreen (so we can wire it)
-* Smaller/no heatsink + no coils
+Beefy and Wimpy: Wimpy has heatsinks+coils removed; traces are smaller; board is shrunk a lot
 
 **TODO:**  
 * Wall voltage fuse, stepdown, rectify, filter
